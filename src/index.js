@@ -69,7 +69,6 @@ class TodoCheck extends React.Component {
 
     render() {
         let status = this.state.checked ? "checkbox slash" : "checkbox";
-        console.log(status);
 
         return (
                 <li>
@@ -82,7 +81,6 @@ class TodoCheck extends React.Component {
     }
 
     handleChange(e) {
-
         this.setState({
             checked: !this.state.checked
         })
